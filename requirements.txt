@@ -1,0 +1,7 @@
+gensim
+streamlit
+plotly
+sentence-transformers 
+scikit-learn 
+pyvis
+numpy
