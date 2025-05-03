@@ -49,4 +49,4 @@ The app will open in your browser at [http://localhost:8501](http://localhost:85
 
 ## 🧑‍💻 Author
 
-Built with ❤️ by [Your Name]
+Built with ❤️ by Junaid
