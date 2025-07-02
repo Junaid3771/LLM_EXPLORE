@@ -1,0 +1,21 @@
+Date,Product,Category,Quantity,Unit_Price,Total_Sales,Region,Salesperson
+2024-01-01,Laptop,Electronics,5,999.99,4999.95,North,John Smith
+2024-01-02,Smartphone,Electronics,12,699.99,8399.88,South,Jane Doe
+2024-01-03,Desk Chair,Furniture,8,199.99,1599.92,East,Mike Johnson
+2024-01-04,Coffee Maker,Appliances,3,89.99,269.97,West,Sarah Wilson
+2024-01-05,Tablet,Electronics,7,399.99,2799.93,North,John Smith
+2024-01-06,Bookshelf,Furniture,4,149.99,599.96,South,Jane Doe
+2024-01-07,Microwave,Appliances,6,129.99,779.94,East,Mike Johnson
+2024-01-08,Monitor,Electronics,9,299.99,2699.91,West,Sarah Wilson
+2024-01-09,Office Desk,Furniture,3,349.99,1049.97,North,John Smith
+2024-01-10,Blender,Appliances,11,79.99,879.89,South,Jane Doe
+2024-01-11,Headphones,Electronics,15,149.99,2249.85,East,Mike Johnson
+2024-01-12,Sofa,Furniture,2,899.99,1799.98,West,Sarah Wilson
+2024-01-13,Refrigerator,Appliances,1,1299.99,1299.99,North,John Smith
+2024-01-14,Gaming Chair,Furniture,6,299.99,1799.94,South,Jane Doe
+2024-01-15,Smart TV,Electronics,4,799.99,3199.96,East,Mike Johnson
+2024-01-16,Dishwasher,Appliances,2,599.99,1199.98,West,Sarah Wilson
+2024-01-17,Keyboard,Electronics,20,59.99,1199.80,North,John Smith
+2024-01-18,Dining Table,Furniture,3,499.99,1499.97,South,Jane Doe
+2024-01-19,Air Fryer,Appliances,8,119.99,959.92,East,Mike Johnson
+2024-01-20,Speakers,Electronics,10,199.99,1999.90,West,Sarah Wilson
