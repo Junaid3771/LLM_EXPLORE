@@ -1,7 +1,10 @@
+# 🧠 LLM Explore Apps
 
-# 🧠 Word Embedding Visualizer
+This repository now contains multiple Streamlit demos:
 
-A simple Streamlit app to explore and visualize word embeddings using Sentence Transformers and PCA.
+- **Word Embedding Visualizer** (`word_embedding.py`)
+- **BERT Attention Arrows Demo** (`attention.py`)
+- **Data Analyst Chat Bot** (`data_analyst_chatbot.py`)
 
 ---
 
@@ -9,44 +12,41 @@ A simple Streamlit app to explore and visualize word embeddings using Sentence T
 
 ### 1. Install Dependencies
 ```bash
-pip install streamlit sentence-transformers scikit-learn plotly numpy
+pip install -r requirements.txt
 ```
 
-### 2. Run the App
+### 2. Run an App
+
 ```bash
 streamlit run word_embedding.py
 ```
 
-The app will open in your browser at [http://localhost:8501](http://localhost:8501).
+```bash
+streamlit run attention.py
+```
+
+```bash
+streamlit run data_analyst_chatbot.py
+```
 
 ---
 
-## ✨ Features
+## 📊 Data Analyst Chat Bot
 
-- Add words (e.g., `run`, `running`, `walk`, `king`, `queen`)
-- View:
-  - Single word → Bar chart of embedding dimensions
-  - 2 words → 2D PCA scatter plot
-  - 3+ words → 3D PCA scatter plot
-- Clear all with one click
+The data analyst bot includes SQL table creation code in `create_sales_table.sql` and auto-loads it into a local SQLite database (`sales_demo.db`) on first run.
 
----
-
-## 🔍 Explore Relationships Like
-
-- Synonyms: `happy`, `joyful`, `glad`
-- Analogies: `king` - `man` + `woman` ≈ `queen`
-- Contexts: `bank` (river vs. financial)
-- Antonyms: `hot`, `cold`
+### Example prompts
+- `total sales`
+- `sales by region`
+- `monthly revenue trend`
+- `average order value`
+- `top 3 products by revenue`
 
 ---
 
-## 📁 File
+## 📁 Files
 
-- `word_embedding.py`: Main app file
-
----
-
-## 🧑‍💻 Author
-
-Built with ❤️ by Junaid
+- `word_embedding.py`: Embedding visualizer app.
+- `attention.py`: Attention graph app.
+- `data_analyst_chatbot.py`: SQL-backed chatbot app.
+- `create_sales_table.sql`: Table creation + seed data script.
